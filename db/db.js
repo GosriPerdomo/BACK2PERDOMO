@@ -4,7 +4,7 @@ mongoose.set('strictQuery', false);
 
 const connectDB = async () => {
   try {
-    const url = 'mongodb+srv://adminPerdomo:0VHBKzWkrYLulDTa@matiperdomo.qgguy.mongodb.net/test';  //  deje el link de mongo en la entrega 
+    const url = '';  //  deje el link de mongo en la entrega 
     await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
